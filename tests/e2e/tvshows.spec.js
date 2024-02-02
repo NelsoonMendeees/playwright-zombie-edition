@@ -1,13 +1,8 @@
 const { test, expect } = require('../support')
 
 const data = require('../support/fixtures/tvshows.json')
+const payload = require('../support/fixtures/admin.json')
 const { executeSQL } = require('../support/database')
-
-export const payload = {
-  email: 'admin@zombieplus.com',
-  senha: 'pwd123',
-  userName: 'Admin'
-}
 
 test.beforeAll(async () => {
   await executeSQL(`DELETE from tvshows`)
