@@ -1,0 +1,32 @@
+{
+  "success": {
+    "email": "admin@zombieplus.com",
+    "senha": "pwd123",
+    "userName": "Admin"
+  },
+  "invalidPass": {
+    "email": "admin@zombieplus.com",
+    "senha": "abc123",
+    "message": "Ocorreu um erro ao tentar efetuar o login. Por favor, verifique suas credenciais e tente novamente."
+  },
+  "invalidEmail": {
+    "email": "adminzombieplus.com",
+    "senha": "pwd123",
+    "message": "Email incorreto"
+  },
+  "emailNull": {
+    "email": "",
+    "senha": "pwd123",
+    "message": "Campo obrigatório"
+  },
+  "passwordNull": {
+    "email": "admin@zombieplus.com",
+    "senha": "",
+    "message": "Campo obrigatório"
+  },
+  "dataNull": {
+    "email": "",
+    "senha": "",
+    "message": "Campo obrigatório"
+  }
+}

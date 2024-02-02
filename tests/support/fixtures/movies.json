@@ -1,0 +1,48 @@
+{
+  "create": {
+    "title": "Guerra Mundial Z",
+    "overview": "Um ex-investigador da ONU é chamado para investigar a origem de uma pandemia global que transforma as pessoas em zumbis, ameaçando dizimar a população mundial.",
+    "company": "Paramount Pictures",
+    "release_year": 2013,
+    "featured": true,
+    "cover": "covers/movies/wwz.png"
+  },
+  "duplicate": {
+    "title": "Resident Evil: O Hospede Maldito",
+    "overview": "Um vírus experimental escapa de um laboratório subterrâneo, transformando as pessoas em mortos-vivos. Uma equipe militar é enviada para conter a ameaça.",
+    "company": "Sony Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "/covers/movies/resident-evil.jpg"
+  },
+  "remove": {
+    "title": "Extermínio",
+    "overview": "Um vírus devastador transforma a população em zumbis rápidos e ferozes. Um grupo de sobreviventes tenta encontrar refúgio em meio ao caos.",
+    "company": "Universal Pictures",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "/covers/movies/extermínio.png"
+  },
+  "search": {
+    "input": "zumbi",
+    "outputs": ["Zumbilândia", "Invasão Zumbi"],
+    "data": [
+      {
+        "title": "Zumbilândia",
+        "overview": "Um grupo de sobreviventes improváveis se une para enfrentar zumbis e encontrar um lugar seguro para viver em um mundo pós-apocalíptico.",
+        "company": "Sony Pictures",
+        "release_year": 2009,
+        "featured": false,
+        "cover": "/covers/movies/zumbilandia.png"
+      },
+      {
+        "title": "Invasão Zumbi",
+        "overview": "Durante uma viagem de trem, um surto zumbi se espalha, forçando os passageiros a lutarem pela sobrevivência em um mundo infestado.",
+        "company": "Paramount Pictures",
+        "release_year": 2016,
+        "featured": false,
+        "cover": "/covers/movies/invasao_zumbi.png"
+      }
+    ]
+  }
+}
