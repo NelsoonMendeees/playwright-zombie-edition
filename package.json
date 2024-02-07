@@ -19,5 +19,8 @@
     "pw:ui": "npx playwright test --ui",
     "pw:headless": "npx playwright test",
     "pw:openBrowser": "npx playwright test --headed"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1"
   }
 }
