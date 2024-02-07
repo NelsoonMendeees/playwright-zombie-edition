@@ -63,5 +63,6 @@ export class Tvshows {
 
   async alertHaveText(target) {
     await expect(this.page.locator('.alert')).toHaveText(target)
+    
   }
 }
