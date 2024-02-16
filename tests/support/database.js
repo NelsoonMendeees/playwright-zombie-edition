@@ -20,5 +20,6 @@ export async function executeSQL(sqlScript) {
     console.log(result.rows)
   } catch (error) {
     console.log('Erro ao executar o SQL ' + error)
+    
   }
 }
